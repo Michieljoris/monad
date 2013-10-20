@@ -1,0 +1,18 @@
+{
+    "name": "dougs_vow.js",
+    "version": "0.1.0",
+    "author": "Douglas Crockford",
+    "description": "Douglas Crockford's vow.js wrapped up in a node module",
+    "repository": {
+	"type": "git",
+	"url": "git://github.com/michieljoris/monad.git"
+    },
+    "dependencies": {
+	"bb-server": "*"
+    },
+    "bugs": {
+	"url": "https://github.com/michieljoris/monad/issues"
+    },
+    "analyze": false,
+    "preferGlobal": "true"
+}

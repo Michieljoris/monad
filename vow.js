@@ -105,6 +105,13 @@ var VOW = (function () {
 
                     herald('broken', value, breakers);
                 },
+                'breek': function (value) {
+
+// The breek method breaks the promise. Breek is dutch for
+// break. A oid the reserved word jshint warning
+
+                    herald('broken', value, breakers);
+                },
                 keep: function keep(value) {
 
 // The keep method keeps the promise.
@@ -269,5 +276,4 @@ var VOW = (function () {
 //     };
 // }
 
-
-
+module.exports = VOW;
