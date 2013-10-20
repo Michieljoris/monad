@@ -267,13 +267,13 @@ var VOW = (function () {
 
 // If your system does not have setImmediate, then simulate it with setTimeout.
 
-// if (typeof setImmediate !== 'function') {
-//     setImmediate = function setImmediate(func, param) {
-//         'use strict';
-//         return setTimeout(function () {
-//             func(param);
-//         }, 0);
-//     };
-// }
+if (typeof setImmediate !== 'function') {
+    setImmediate = function setImmediate(func, param) {
+        'use strict';
+        return setTimeout(function () {
+            func(param);
+        }, 0);
+    };
+}
 
 module.exports = VOW;
