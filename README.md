@@ -2,8 +2,7 @@ Added module.exports = VOW;
 
 Added breek alias for break to avoid jshint reserved words warning.
 
-Original readme:
-=============
+###Original readme:
 
 This is the code companion to my one act, one man show,
 _Monads & Gonads_.
