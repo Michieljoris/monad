@@ -99,6 +99,7 @@ var VOW = (function () {
 // Construct and return the vow object.
 
             return {
+                'status': function() { return status; },
                 'break': function (value) {
 
 // The break method breaks the promise.
