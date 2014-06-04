@@ -1,0 +1,116 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/michieljoris/bin/node',
+1 verbose cli   '/home/michieljoris/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /home/michieljoris/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/michieljoris/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz
+13 verbose folder .
+14 info prepublish dougs_vow@0.1.7
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/michieljoris/.npm/1f1177db-tar.lock
+17 silly lockFile 936355c0-25854-0-1266699826810509-tmp-tgz tar:///home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz
+18 verbose lock tar:///home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz /home/michieljoris/.npm/936355c0-25854-0-1266699826810509-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 936355c0-25854-0-1266699826810509-tmp-tgz tar:///home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz
+22 silly lockFile 936355c0-25854-0-1266699826810509-tmp-tgz tar:///home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz
+23 verbose tar unpack /home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz
+24 silly lockFile a73dd996-oris-npm-dougs-vow-0-1-7-package tar:///home/michieljoris/.npm/dougs_vow/0.1.7/package
+25 verbose lock tar:///home/michieljoris/.npm/dougs_vow/0.1.7/package /home/michieljoris/.npm/a73dd996-oris-npm-dougs-vow-0-1-7-package.lock
+26 silly lockFile 936355c0-25854-0-1266699826810509-tmp-tgz tar:///home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz
+27 verbose lock tar:///home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz /home/michieljoris/.npm/936355c0-25854-0-1266699826810509-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+35 silly gunzTarPerm extractEntry monad.js
+36 silly gunzTarPerm modified mode [ 'monad.js', 436, 420 ]
+37 silly gunzTarPerm extractEntry vow.js
+38 silly gunzTarPerm modified mode [ 'vow.js', 436, 420 ]
+39 silly lockFile a73dd996-oris-npm-dougs-vow-0-1-7-package tar:///home/michieljoris/.npm/dougs_vow/0.1.7/package
+40 silly lockFile a73dd996-oris-npm-dougs-vow-0-1-7-package tar:///home/michieljoris/.npm/dougs_vow/0.1.7/package
+41 silly lockFile 936355c0-25854-0-1266699826810509-tmp-tgz tar:///home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz
+42 silly lockFile 936355c0-25854-0-1266699826810509-tmp-tgz tar:///home/michieljoris/tmp/npm-22652-4tE1erpt/1401892925854-0.1266699826810509/tmp.tgz
+43 silly lockFile 3a52ce78- .
+44 silly lockFile 3a52ce78- .
+45 silly publish { name: 'dougs_vow',
+45 silly publish   version: '0.1.7',
+45 silly publish   author: { name: 'Douglas Crockford' },
+45 silly publish   description: 'Douglas Crockford\'s vow.js wrapped up in a node module.',
+45 silly publish   repository: { type: 'git', url: 'git://github.com/michieljoris/monad.git' },
+45 silly publish   keywords: [ 'vow', 'promise', 'Crockford' ],
+45 silly publish   dependencies: {},
+45 silly publish   main: 'vow.js',
+45 silly publish   bugs: { url: 'https://github.com/michieljoris/monad/issues' },
+45 silly publish   readme: 'Added module.exports = VOW; \n\nAdded breek alias for break to avoid jshint reserved words warning.\n\n###Original readme:\n\nThis is the code companion to my one act, one man show,\n_Monads & Gonads_.\n\nIt contains two JavaScript files:\n\n    monad.js    for making monads\n    vow.js      for making promises\n',
+45 silly publish   readmeFilename: 'README.md',
+45 silly publish   homepage: 'https://github.com/michieljoris/monad',
+45 silly publish   _id: 'dougs_vow@0.1.7',
+45 silly publish   _shasum: '7d29749ecdb4bb02fbe907be10a2bf6368df903d',
+45 silly publish   _from: '.' }
+46 verbose url raw dougs_vow
+47 verbose url resolving [ 'https://registry.npmjs.org/', './dougs_vow' ]
+48 verbose url resolved https://registry.npmjs.org/dougs_vow
+49 info trying registry request attempt 1 at 00:42:05
+50 http PUT https://registry.npmjs.org/dougs_vow
+51 http 403 https://registry.npmjs.org/dougs_vow
+52 verbose headers { date: 'Wed, 04 Jun 2014 14:42:13 GMT',
+52 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+52 verbose headers   'content-type': 'application/json',
+52 verbose headers   'cache-control': 'max-age=1',
+52 verbose headers   'content-length': '2588',
+52 verbose headers   'accept-ranges': 'bytes',
+52 verbose headers   via: '1.1 varnish',
+52 verbose headers   'x-served-by': 'cache-syd1623-SYD',
+52 verbose headers   'x-cache': 'MISS',
+52 verbose headers   'x-cache-hits': '0',
+52 verbose headers   'x-timer': 'S1401892933.090669,VS0,VE721',
+52 verbose headers   'keep-alive': 'timeout=10, max=50',
+52 verbose headers   connection: 'Keep-Alive' }
+53 error publish Failed PUT 403
+54 error Error: forbidden cannot modify pre-existing version: 0.1.7
+54 error old={"name":"dougs_vow","version":"0.1.7","author":{"name":"Douglas Crockford"},"description":"Douglas Crockford's vow.js wrapped up in a node module.","repository":{"type":"git","url":"git://github.com/michieljoris/monad.git"},"keywords":["vow","promise","Crockford"],"dependencies":{},"main":"vow.js","bugs":{"url":"https://github.com/michieljoris/monad/issues"},"readme":"Added module.exports = VOW; \u000a\u000aAdded breek alias for break to avoid jshint reserved words warning.\u000a\u000a###Original readme:\u000a\u000aThis is the code companion to my one act, one man show,\u000a_Monads & Gonads_.\u000a\u000aIt contains two JavaScript files:\u000a\u000a    monad.js    for making monads\u000a    vow.js      for making promises\u000a","readmeFilename":"README.md","_id":"dougs_vow@0.1.7","dist":{"shasum":"9a9e1701062140d45afa56705a7abade9c6f8798","tarball":"http://registry.npmjs.org/dougs_vow/-/dougs_vow-0.1.7.tgz"},"_npmVersion":"1.1.66","_npmUser":{"name":"michieljoris","email":"michieljoris@gmail.com"},"maintainers":[{"name":"michieljoris","email":"michieljoris@gmail.com"}]}
+54 error new={"name":"dougs_vow","version":"0.1.7","author":{"name":"Douglas Crockford"},"description":"Douglas Crockford's vow.js wrapped up in a node module.","repository":{"type":"git","url":"git://github.com/michieljoris/monad.git"},"keywords":["vow","promise","Crockford"],"dependencies":{},"main":"vow.js","bugs":{"url":"https://github.com/michieljoris/monad/issues"},"readme":"Added module.exports = VOW; \u000a\u000aAdded breek alias for break to avoid jshint reserved words warning.\u000a\u000a###Original readme:\u000a\u000aThis is the code companion to my one act, one man show,\u000a_Monads & Gonads_.\u000a\u000aIt contains two JavaScript files:\u000a\u000a    monad.js    for making monads\u000a    vow.js      for making promises\u000a","readmeFilename":"README.md","homepage":"https://github.com/michieljoris/monad","_id":"dougs_vow@0.1.7","_shasum":"7d29749ecdb4bb02fbe907be10a2bf6368df903d","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"michieljoris","email":"mail@axion5.net"},"maintainers":[{"name":"michieljoris","email":"mail@axion5.net"}],"dist":{"shasum":"7d29749ecdb4bb02fbe907be10a2bf6368df903d","tarball":"http://registry.npmjs.org/dougs_vow/-/dougs_vow-0.1.7.tgz"}}: dougs_vow
+54 error     at RegClient.<anonymous> (/home/michieljoris/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+54 error     at Request._callback (/home/michieljoris/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+54 error     at Request.self.callback (/home/michieljoris/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:123:22)
+54 error     at Request.EventEmitter.emit (events.js:98:17)
+54 error     at Request.<anonymous> (/home/michieljoris/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:893:14)
+54 error     at Request.EventEmitter.emit (events.js:117:20)
+54 error     at IncomingMessage.<anonymous> (/home/michieljoris/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:844:12)
+54 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+54 error     at _stream_readable.js:919:16
+54 error     at process._tickCallback (node.js:419:13)
+55 error If you need help, you may report this *entire* log,
+55 error including the npm and node versions, at:
+55 error     <http://github.com/npm/npm/issues>
+56 error System Linux 3.11.0-12-generic
+57 error command "/home/michieljoris/bin/node" "/home/michieljoris/bin/npm" "publish"
+58 error cwd /media/michieljoris/d5099508-7d17-4aea-ac80-ac38100b9447/home/michieljoris/mysrc/javascript/monad
+59 error node -v v0.10.28
+60 error npm -v 1.4.9
+61 verbose exit [ 1, true ]

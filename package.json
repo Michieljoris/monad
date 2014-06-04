@@ -1,6 +1,6 @@
 {
     "name": "dougs_vow",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "author": "Douglas Crockford",
     "description": "Douglas Crockford's vow.js wrapped up in a node module.",
     "repository": {
