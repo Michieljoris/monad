@@ -75,6 +75,7 @@ var VOW = (function () {
 // But if func throws an exception, then break our promise.
 
                         } catch (e) {
+                            console.log('Error caught in vow: ', e, e.stack);
                             vow.break(e);
                         }
                     };
